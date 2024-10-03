@@ -32,6 +32,11 @@
             <button type="submit">Planejar Viagem</button>
         </form>
     </main>
+    <section id="map" hidden>
+        <h2>Mapa do Destino</h2>
+        <div id="map-container" style="height: 400px;"></div>
+    </section>
+    
     <section id="summary" hidden>
         <h2>Resumo da sua Viagem</h2>
         <div id="summary-content">
@@ -41,6 +46,7 @@
     <footer>
         <p>&copy; 2024 Italo Brunkhorst. Todos os direitos reservados.</p>
     </footer>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcAcZy5HSoyy1frqy9EQCZB1PEgF9EAE0&callback=initMap" async defer></script>
     <script src="script.js"></script>
 </body>
 </html>
